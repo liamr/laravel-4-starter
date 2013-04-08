@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+  ServerName myapp
+  DocumentRoot /vagrant/public
+
+  <Directory /vagrant>
+    AllowOverride All
+    Allow from all
+    EnableSendfile Off
+  </Directory>
+</VirtualHost>
