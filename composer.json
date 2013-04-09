@@ -1,10 +1,25 @@
 {
+	"repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.cartalyst.com"
+        }
+    ],
 	"require": {
 		"laravel/framework": "4.0.*",
 		"cartalyst/sentry": "2.0.*",
 		"jasonlewis/expressive-date": "1.*",
 		"opauth/opauth": "*",
-		"opauth/facebook": "*"
+		"opauth/facebook": "*",
+		//theme
+		"cartalyst/themes": "2.0.*",
+		"cartalyst/assetic-filters": "1.0.*",
+	    "jasonlewis/basset": "dev-master",
+	    "leafo/lessphp": "dev-master",
+	    "leafo/scssphp": "dev-master",
+	    "leafo/scssphp-compass": "dev-master",
+	    "lmammino/jsmin4assetic": "dev-master",
+	    "natxet/CssMin": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
