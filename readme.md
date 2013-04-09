@@ -32,7 +32,9 @@ It includes examples on how to use the framework itselff and how to use some pac
 
 ##How to run Vagrant
 
- - Look at instructions in the puppet folder
+ - Look at instructions in the puppet folder for more, but the basics go:
+
+ - 1. `vagrant up`
 
 ##How to Install Laravel
 
