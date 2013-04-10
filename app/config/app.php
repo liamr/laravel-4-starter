@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'l9GqdORe2tYvYFAvO0zyZCDTvcB0WMIj',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -115,6 +115,8 @@ return array(
 
 		'Cartalyst\Sentry\SentryServiceProvider',
 		'ExpressiveDateServiceProvider',
+
+		'Basset\BassetServiceProvider', // Better Asset Management
 
 	),
 
@@ -182,6 +184,8 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 		'Sentry'          => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
+
+		'Basset' => 'Basset\Facades\Basset', // Better Asset Management
 
 	),
 

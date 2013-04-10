@@ -8,3 +8,4 @@ composer.lock
 .vagrant.*
 app/config/app.php
 app/config/local/
+public/assets/compiled/

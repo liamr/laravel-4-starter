@@ -11,14 +11,7 @@
 		"jasonlewis/expressive-date": "1.*",
 		"opauth/opauth": "*",
 		"opauth/facebook": "*",
-		"cartalyst/themes": "2.0.*",
-		"cartalyst/assetic-filters": "1.0.*",
-	    "jasonlewis/basset": "dev-master",
-	    "leafo/lessphp": "dev-master",
-	    "leafo/scssphp": "dev-master",
-	    "leafo/scssphp-compass": "dev-master",
-	    "lmammino/jsmin4assetic": "dev-master",
-	    "natxet/CssMin": "dev-master"
+		"jasonlewis/basset": "dev-develop"
 	},
 	"autoload": {
 		"classmap": [
