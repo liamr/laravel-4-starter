@@ -15,6 +15,8 @@ class HomeController extends BaseController {
 	|
 	*/
 
+	protected $layout = 'site.layouts.foundation';
+
 	public function showWelcome()
 	{
 		return View::make('hello');

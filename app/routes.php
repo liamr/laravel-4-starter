@@ -106,7 +106,7 @@ Route::get('about-us', function()
 Route::get('{postSlug}', 'BlogController@getView');
 Route::post('{postSlug}', 'BlogController@postView');
 
-Route::get('/', 'BlogController@getIndex');
+Route::get('/', 'HomeController@showWelcome');
 
 # routes for handling social authentication via opauth
 Route::get('social/auth/{network?}', 'SocialController@auth');
